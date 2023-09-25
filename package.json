@@ -1,0 +1,11 @@
+{
+  "name": "front-developer-idea",
+  "scripts": {
+    "//": "{トランスパイルディレクトリ:トランスパイル先ディレクトリ} あとは引数。 -wは変更検知して勝手にトランスパイル",
+    "sass": "sass ./src/**:./public/** --no-source-map -w"
+  },
+  "dependencies": {
+    "sass": "^1.66.1"
+  },  
+  "packageManager": "yarn@4.0.0-rc.38"
+}
